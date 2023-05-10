@@ -1,0 +1,28 @@
+.offers {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+    
+}
+
+.text {
+    padding: 10px;
+    margin-top: -5%;
+    width: 90%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    text-align: justify;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .text{
+        font-size: 13px;
+    }
+
+}

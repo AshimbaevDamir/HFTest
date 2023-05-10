@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h2, h3 {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.catalogue a {
+    text-decoration: none;
+    color: rgb(154, 0, 0);
+    box-sizing: border-box;
+}
+
+.catalogue ul {
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.catalogue ul li{
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 300ms;
+    margin-right: 25px;
+    margin-top: 40px;
+    padding: 0;
+    opacity: 0.6;
+}
+
+
+
+.catalogue ul li:hover{
+    scale: 1.15;
+    text-decoration: underline;
+    opacity: 1;
+    color: rgb(154, 0, 0);
+}
+
+
+
+
+
+.catalogue {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+}
+
+h3 {
+    z-index: 1000;
+    margin-bottom: -20px;
+    font-size: 13px;
+    bottom: 0;
+    
+}
+
+.catalogue div {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    display: grid;
+    align-items: end;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.hoses {
+    background-image: url('catalogue/hoses.jpg');
+   
+}
+
+.fittings {
+    background-image: url('catalogue/fittings.jpg');
+  
+}
+
+.brs {
+    background-image: url('catalogue/brs.jpg');
+  
+}
+
+.din2353 {
+    background-image: url('catalogue/din2353.jpg');
+    
+}
+
+.tubes {
+    background-image: url('catalogue/tubes.jpg');
+    
+}
+
+.adapters {
+    background-image: url('catalogue/adapters.jpg');
+   
+}
+
+.flange {
+    background-image: url('catalogue/flange.jpg');
+ 
+}
+
+.ball-valves {
+    background-image: url('catalogue/ball-valves.jpg');
+   
+}
+
+.din3015 {
+    background-image: url('catalogue/din3015.jpg');
+    
+}
+
+.whater {
+    background-image: url('catalogue/whater.jpg');
+   
+}
+
+.pnevmo {
+    background-image: url('catalogue/pnevmo.jpg');
+   
+}
+
+.valves {
+    background-image: url('catalogue/valves.jpg');
+    
+}
+
+.filters {
+    background-image: url('catalogue/filters.jpg');
+   
+}
+
+
+.manometr {
+    background-image: url('catalogue/manometr.jpg');
+   
+}
+
+.seals {
+    background-image: url('catalogue/seals.jpg');
+   
+}
+
+.tools {
+    background-image: url('catalogue/tools.jpg');
+   
+}

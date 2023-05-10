@@ -1,0 +1,29 @@
+.documents {
+    margin: 10px 40px;
+    padding: 5px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+.documents li {
+    line-height: 30px;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+.documents a:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.documents a{
+    text-decoration: none;
+    color: black;
+}
+
